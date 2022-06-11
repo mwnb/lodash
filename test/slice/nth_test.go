@@ -1,8 +1,9 @@
 package slice
 
 import (
-	"lodash/slice"
 	"testing"
+
+	"github.com/mwnb/lodash/slice"
 )
 
 func TestNth(t *testing.T) {

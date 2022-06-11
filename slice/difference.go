@@ -1,6 +1,6 @@
 package slice
 
-import "lodash/base"
+import "github.com/mwnb/lodash/base"
 
 func Difference[T base.BaseType](s ...[]T) []T {
 	if len(s) == 1 {

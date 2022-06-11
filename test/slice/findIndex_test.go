@@ -2,8 +2,9 @@ package slice
 
 import (
 	"fmt"
-	"lodash/slice"
 	"testing"
+
+	"github.com/mwnb/lodash/slice"
 )
 
 func TestFindIndex(t *testing.T) {
