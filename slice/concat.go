@@ -1,7 +1,7 @@
 package slice
 
-func Concat(s ...[]interface{}) []interface{} {
-	rtS := make([]interface{}, 0)
+func Concat[T any](s ...[]T) []T {
+	rtS := make([]T, 0)
 	for _, v := range s {
 		rtS = append(rtS, v...)
 	}
